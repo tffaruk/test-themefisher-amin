@@ -1,0 +1,50 @@
+{
+  "name": "gethugothemes-admin",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/cache": "^11.10.5",
+    "@emotion/css": "^11.10.5",
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/lab": "^5.0.0-alpha.117",
+    "@mui/material": "^5.11.6",
+    "@mui/styles": "^5.11.2",
+    "@mui/x-data-grid": "^5.17.21",
+    "@mui/x-data-grid-generator": "^5.17.20",
+    "@mui/x-date-pickers-pro": "^5.0.16",
+    "apexcharts": "^3.36.3",
+    "axios": "^1.2.6",
+    "clsx": "1.2.1",
+    "date-fns": "^2.29.3",
+    "date-fns-tz": "^1.3.7",
+    "dotenv": "^16.0.3",
+    "feather-icons-react": "^0.6.2",
+    "github-slugger": "^2.0.0",
+    "html-metadata-parser": "^2.0.4",
+    "mui-daterange-picker": "^1.0.5",
+    "next": "13.1.6",
+    "next-auth": "^4.19.0",
+    "prop-types": "15.8.1",
+    "react": "18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-dom": "18.2.0",
+    "react-select": "^5.7.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.18",
+    "typescript": "4.9.4"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  }
+}
