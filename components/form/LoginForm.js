@@ -11,7 +11,7 @@ import { useRouter } from "next/router";
 import { useState } from "react";
 import { signIn } from "next-auth/react";
 
-const LoginForm = ({ authProviders }) => {
+const LoginForm = () => {
   const [userInfo, setUserInfo] = useState({ email: "", password: "" });
   const [error, setError] = useState("");
   const [type, setType] = useState(false);

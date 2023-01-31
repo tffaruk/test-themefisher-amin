@@ -4,8 +4,7 @@ import { getProviders, getSession, signIn } from "next-auth/react";
 import React from "react";
 
 const SignIn = ({ providers }) => {
-  const authProviders = Object.values(providers);
-  return <LoginForm signIn={signIn} authProviders={authProviders} />;
+  return <LoginForm signIn={signIn} />;
 };
 
 export default SignIn;
